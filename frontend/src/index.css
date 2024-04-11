@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-container form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-container h2 {
+  margin-bottom: 10px;
+}
+
+.form-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-container input[type="text"],
+.form-container textarea,
+.form-container select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-container button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.task-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.task-list-container h2 {
+  margin-bottom: 20px;
+}
+
+.task {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-title {
+  font-weight: bold;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-actions button:hover {
+  background-color: #ddd;
+}
+
+.filter-container {
+  max-width: 200px;
+  margin-bottom: 20px;
+  padding: 1rem 2rem;
+}
+
+.filter-container h2 {
+  margin-bottom: 10px;
+}
+
+.filter-container select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.white {
+  color: white;
+}
+
+.light-red {
+  background-color: rgba(
+    255,
+    0,
+    0,
+    0.6
+  ); /* Red: 255, Green: 0, Blue: 0, Opacity: 0.6 */
+}
+
+/* Light green with 0.6 opacity */
+.light-green {
+  background-color: rgba(
+    0,
+    255,
+    0,
+    0.6
+  ); /* Red: 0, Green: 255, Blue: 0, Opacity: 0.6 */
+}
+
+/* Light blue with 0.6 opacity */
+.light-blue {
+  background-color: rgba(
+    0,
+    0,
+    255,
+    0.6
+  ); /* Red: 0, Green: 0, Blue: 255, Opacity: 0.6 */
+}
+
+/* Light purple with 0.6 opacity */
+.light-purple {
+  background-color: rgba(
+    128,
+    0,
+    128,
+    0.6
+  ); /* Red: 128, Green: 0, Blue: 128, Opacity: 0.6 */
+}
